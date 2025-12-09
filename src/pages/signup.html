@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Etiwanda Logistics</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 32px;
+        }
+        .header-section {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .header-section .logo {
+            margin: 0 auto 16px;
+        }
+        .signup-card {
+            width: 100%;
+            max-width: 400px;
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <div class="logo">🚚</div>
+        <div>
+            <div class="company-name">Etiwanda Logistics</div>
+            <div class="system-name">Order Management System</div>
+        </div>
+    </div>
+
+    <div class="signup-card">
+        <div class="nav-tabs">
+            <button class="nav-tab" onclick="window.location.href='login.html'">LOGIN</button>
+            <button class="nav-tab active">SIGN UP</button>
+        </div>
+
+        <form style="margin-top: 24px;">
+            <div class="input-group">
+                <label class="input-label">First Name *</label>
+                <input type="text" class="input-field" placeholder="First Name *">
+            </div>
+
+            <div class="input-group">
+                <label class="input-label">Last Name *</label>
+                <input type="text" class="input-field" placeholder="Last Name *">
+            </div>
+
+            <div class="input-group">
+                <label class="input-label">Email *</label>
+                <input type="email" class="input-field" placeholder="Email *">
+            </div>
+
+            <div class="input-group">
+                <label class="input-label">Password *</label>
+                <input type="password" class="input-field" placeholder="Password *">
+            </div>
+
+            <div class="input-group">
+                <label class="input-label">Confirm Password *</label>
+                <input type="password" class="input-field" placeholder="Confirm Password *">
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 16px;">CREATE ACCOUNT</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">T</div>
+        <span>Powered by Trilogy</span>
+    </div>
+</body>
+</html>
+
+

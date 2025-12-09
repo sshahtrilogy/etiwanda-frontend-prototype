@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details - Etiwanda Logistics</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <style>
+        .wave-number {
+            font-size: 24px;
+            font-weight: 700;
+            margin: 24px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="logo">🚚</div>
+            <div>
+                <div class="company-name">Etiwanda Logistics</div>
+                <div class="system-name">Order Details</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="user-email">ritinbhardwaj339@gmail.com</span>
+            <button class="btn btn-link">← BACK</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">Order #4</div>
+                <div style="display: flex; gap: 12px;">
+                    <button class="btn btn-primary">✏️ EDIT</button>
+                    <button class="btn btn-danger">🗑️ DELETE</button>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="detail-item">
+                    <div class="detail-label">ID</div>
+                    <div class="detail-value">4</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Cancel Date</div>
+                    <div class="detail-value">2025-12-10</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Carton Count</div>
+                    <div class="detail-value">10</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Comment</div>
+                    <div class="detail-value">Urgent order, handle with care</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Customer Name</div>
+                    <div class="detail-value">ABC Customer</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Order Start Date</div>
+                    <div class="detail-value">2025-12-06</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Pallet Count</div>
+                    <div class="detail-value">20</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Pick Tickets</div>
+                    <div class="detail-value">15, 16, 17, 18, 19, 20, 26, 27, 28</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">PO Number</div>
+                    <div class="detail-value">PO-12345</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Ship To</div>
+                    <div class="detail-value">123 Warehouse Street, NY</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Special Project Name</div>
+                    <div class="detail-value">HolidaySpecial</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Status</div>
+                    <div class="detail-value">Pick Complete</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Wave Number</div>
+                    <div class="detail-value">WAVE-001</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wave-number">Wave Number WAVE-001</div>
+
+        <div class="section">
+            <div class="section-header">
+                <div class="section-title">Order Containers</div>
+                <button class="btn btn-primary">+ ADD CONTAINER</button>
+            </div>
+            <div class="section-content">
+                <div class="table-container">
+                    <table class="table">
+                        <thead class="table-header">
+                            <tr>
+                                <th>ID</th>
+                                <th>Container No</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>2</td>
+                                <td>ewd</td>
+                                <td>Working</td>
+                                <td>
+                                    <div class="table-actions">
+                                        <button class="icon-btn">✏️</button>
+                                        <button class="icon-btn icon-btn-danger">🗑️</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>322e</td>
+                                <td></td>
+                                <td>
+                                    <div class="table-actions">
+                                        <button class="icon-btn">✏️</button>
+                                        <button class="icon-btn icon-btn-danger">🗑️</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>dsa</td>
+                                <td></td>
+                                <td>
+                                    <div class="table-actions">
+                                        <button class="icon-btn">✏️</button>
+                                        <button class="icon-btn icon-btn-danger">🗑️</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-header">
+                <div class="section-title">Order Shipment</div>
+                <button class="btn btn-primary">+ ADD SHIPMENT</button>
+            </div>
+            <div class="section-content">
+                <div class="table-container">
+                    <table class="table">
+                        <thead class="table-header">
+                            <tr>
+                                <th>ID</th>
+                                <th>Carrier</th>
+                                <th>CF</th>
+                                <th>Load Number</th>
+                                <th>Routing Date</th>
+                                <th>Ship Date</th>
+                                <th>Ship Time</th>
+                                <th>Shipping Log</th>
+                                <th>Weight</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>1</td>
+                                <td>FedEx</td>
+                                <td>450.75</td>
+                                <td>LN-20251206-01</td>
+                                <td>2025-12-05</td>
+                                <td>2025-12-06</td>
+                                <td>14:30:00</td>
+                                <td>Shipment prepared and scheduled.</td>
+                                <td>1210</td>
+                                <td>
+                                    <div class="table-actions">
+                                        <button class="icon-btn">✏️</button>
+                                        <button class="icon-btn icon-btn-danger">🗑️</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>ds</td>
+                                <td>34</td>
+                                <td>ee</td>
+                                <td>1990-01-01</td>
+                                <td>1999-01-01</td>
+                                <td>11:11:00</td>
+                                <td>ssw</td>
+                                <td>12.34</td>
+                                <td>
+                                    <div class="table-actions">
+                                        <button class="icon-btn">✏️</button>
+                                        <button class="icon-btn icon-btn-danger">🗑️</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>dfd</td>
+                                <td>33.4</td>
+                                <td>dds</td>
+                                <td>-</td>
+                                <td>1111-11-11</td>
+                                <td>11:11:00</td>
+                                <td>sad</td>
+                                <td>22.5</td>
+                                <td>
+                                    <div class="table-actions">
+                                        <button class="icon-btn">✏️</button>
+                                        <button class="icon-btn icon-btn-danger">🗑️</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">T</div>
+        <span>Powered by Trilogy</span>
+    </div>
+</body>
+</html>
+
+
